@@ -9,11 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- LINK A CSS PROPIO -->
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Contacto</title>
+    <title>Galeria</title>
 </head>
 <body>
-
-    <!-- MENU DE NAVEGACION -->
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -48,48 +46,44 @@
         </nav>
     </header>
 
-    <section class="contacto-section">
-        <p>Contactate conmigo en este momento para poder ayudarte con lo que andas buscando</p>
 
-        <form>
-            <fieldset>
-                <legend>Tus datos</legend>
-                <div>
-                    <label for="nombre">Tu nombre</label>
-                    <input type="text"id="nombre">
-                </div>
+<section>
+    <div class="">
+        <h2 class="titul">Galeria de Trabajos y Experiencias</h2>
+    </div>
 
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-                </div>
 
-                <div>
-                    <label for="curso">Capacitación</label>
-                    <input type="text" id="curso">
-                </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/vertido latte art.jpeg" class="d-block w-100" alt="latte">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/teddy.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/baristeando-ancho.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/tasitas.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/latteart2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+</section>
 
-                <div>
-                    <label for="encuentro">Como me encontraste?</label>
-                    <input type="text" id="encuentro">
-                </div>
 
-                <div>
-                    <label for="mensaje">Dejame tu comentario!</label>
-                    <textarea id="mensaje" cols="40" rows="10"></textarea>
-                </div>
 
-                <div>
-                    <input type="submit" value="Enviar formulario">
-                    <input type="reset" value="Limpiar formulario">
-                </div>
-
-            </fieldset>
-        </form>
-
-        <h2>Encuentrame actualmente trabajando en "Elcira"</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13398.619308888321!2d-68.8465981!3d-32.9072933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09f0ff293e07%3A0xaa5d3e9b6d2090ce!2sELCIRA%20PUNTO%20DE%20ENCUENTRO!5e0!3m2!1ses-419!2sar!4v1692493918853!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
 
 
 
@@ -111,7 +105,6 @@
         <img src="../img/iconos/whatsapp-icon.svg" alt="Icono whatsapp" class="icono-redes">
     </a>
 </div>
-
 
 <footer>
     <p>Copyright ©2023 All rights reserved</p>

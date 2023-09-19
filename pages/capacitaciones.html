@@ -5,33 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- logo web -->
     <link rel="shortcut icon" href="../img/logos proyecto nc 2.png" type="image/x-icon">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- LINK A CSS PROPIO -->
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Capacitaciones</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo proyecto nc.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
 
-                <li>
-                    <a href="tienda.html">Mini Tienda</a>
-                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
 
-                <li>
-                    <a href="capacitaciones.html">Capacitaciones</a>
-                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="capacitaciones.html">Capacitaciones</a>
+                        </li>
 
-                <li>
-                    <a href="sobre-mi.html">Sobre mi</a>
-                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                        </li>
 
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
+
+    <section>
+            <h2 class="banner-cap">Nuestras capacitaciones</h2>
+            <h3 class="minimal">Para que seas un experto en el mundo del café</h3>
+
+        <!-- Padre Contenedores -->
+        <div class="contenedor-padre">
+
+            <div class="contenedor">
+                <img src="../img/Cursos/espresso-curso.jpeg" alt="Espresso">
+                <div class="contenedor-textos">
+                    <h3>Como hacer un Espresso Perfecto</h3>
+                    <p class="parrafo-cursos">En este curso, abordaremos diversos temas relacionados con el café. En primer lugar, hablaremos del Barista, explorando sus responsabilidades, las herramientas que utiliza y la importancia de la bromatología. Además, nos adentraremos en el fascinante mundo del Cafeto, conociendo su cultivo, orígenes y variedades. Junto con el profesor Barista, nos enfocaremos en la práctica detallada para elaborar un Espresso Perfecto, la receta base de la carta internacional de cafés.</p>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <img src="../img/Cursos/carta-italiana-curso.jpeg" alt="Carta-italiana">
+                <div class="contenedor-textos">
+                    <h3>Carta Italiana o Carta Internacional</h3>
+                    <p class="parrafo-cursos">En este módulo, abordaremos el tema del cultivo y recolección del cerezo, que produce la fruta del cafeto, además de explorar sus beneficios y los procesos de trilla y tostado. Junto al profesor barista, aprenderás a preparar los cafés más clásicos y populares a nivel mundial, tales como el Cappuccino, Macchiato, Flat White, Latte, y muchos más.</p>                
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <img src="../img/Cursos/latte-art-curso.jpeg" alt="Latte-art">
+                <div class="contenedor-textos">
+                    <h3>Arte Latte</h3>
+                    <p class="parrafo-cursos">En está oportunidad, nos sumergiremos en los orígenes del café y su fascinante historia. Además, exploraremos el mundo del Arte Latte, abordando técnicas, herramientas y el vertido libre, entre otros aspectos relevantes.
+                        De la mano del profesor, aprenderemos a practicar el vertido libre paso a paso, así como a dibujar un corazón perfecto en tu taza de café.</p>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <img src="../img/Cursos/chemex-curso.jpeg" alt="Chemex">
+                <div class="contenedor-textos">
+                    <h3>Chemex</h3>
+                    <p class="parrafo-cursos">En éste curso te enseñaremos a preparar la chemex perfecta, este método es ideal para cualquier persona que disfruta de un café limpio y brillante, con mucha claridad en sus sabores y un cuerpo medio</p>
+                </div>
+            </div>
+
+            <div class="contenedor">
+                <img src="../img/Cursos/v60-curso.jpeg" alt="v60">
+                <div class="contenedor-textos">
+                    <h3>v60</h3>
+                    <p class="parrafo-cursos">En éste curso te enseñaremos cómo preparar una v60 increíble, este método complejo pero qué con un poco de práctica y conocimientos lograremos una taza de café limpia y brillante con mucho sabor y un cuerpo medio</p>
+                </div>
+            </div>
+
+        </div><!--Cierre padre contenedores-->
+    </section>
+
+
+</footer>
+
+<div class="redes-sociales">
+    <a href="https://www.tiktok.com" target="_blank">
+        <img src="../img/iconos/tiktok-icon.svg" alt="Icono tiktok" class="icono-redes">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+        <img src="../img/iconos/facebook.svg" alt="Icono facebook" class="icono-redes">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <img src="../img/iconos/instagram.svg" alt="Icono instagram" class="icono-redes">
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=542616632629" target="_blank">
+        <img src="../img/iconos/whatsapp-icon.svg" alt="Icono whatsapp" class="icono-redes">
+    </a>
+</div>
+
+<footer>
+    <p>Copyright ©2023 All rights reserved</p>
+</footer>
+
+        <!-- SCRIPT DE BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

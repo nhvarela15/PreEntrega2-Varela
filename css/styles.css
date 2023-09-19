@@ -1,0 +1,223 @@
+/* ETIQUETAS GENERALES */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ECF8F8;
+
+}
+
+
+
+/* CSS DEL INDEX */
+
+
+header img{
+    width: 160px;
+    border-radius: 50%;
+
+}
+
+.banner{
+background-color: #E7D8C9;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2{
+    background-color:#B2967D;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+.titulo1{
+    font-weight: lighter;
+    color: #ECF8F8;
+}
+.titulo2 {
+color:#ECF8F8;
+    font-weight: bold;
+}
+
+.titulo3{
+    font-weight: lighter;
+    font-size: medium;
+    color: #ECF8F8;
+}
+
+.titulo4{
+    font-weight: lighter;
+    font-size: larger;
+    color: #ECF8F8;
+}
+
+
+/* GALERIA */
+
+
+
+.banner3{
+    background-color:#ECF8F8;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titul {
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+            font-weight: bold;
+        }
+
+.carousel-item img {
+    height: 55vh;
+}
+
+@media (min-width: 520px) {
+    .carousel-item img{
+        height: 50vh;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item img{
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-item img{
+        height: 80vh;
+    }
+
+    #carouselExampleFade {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS DEL HTML CAPACITACIONES */
+
+.banner-cap{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(124, 111, 111);
+
+}
+
+.minimal{
+    height: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(124, 111, 111);
+    margin-bottom: 20px;
+}
+
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0 ;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: beige;
+    color:  rgb(124, 111, 111);
+}
+
+.contenedor img{
+    width: 480px;
+}
+
+
+/* CSS DEL HTML SOBRE MI */
+
+.div-sobremi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: beige;
+    color:  rgb(124, 111, 111);
+}
+
+.div-sobremi img{
+    height: 60vh;
+    width: auto;
+}
+
+
+/* CSS DEL HTML CONTACTO */
+.contacto-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS DEL FOOTER */
+
+footer{
+    padding: 30px;
+    background-color: beige;
+    color:  rgb(124, 111, 111);
+    text-align: center;
+}
+
+.redes-sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 3%;
+    right: 50px;
+}
+
+.icono-redes{
+    width: 35px;
+
+}

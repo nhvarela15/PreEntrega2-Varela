@@ -5,33 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- logo web -->
     <link rel="shortcut icon" href="img/logos proyecto nc 2.png" type="image/x-icon">
+    <!-- LINK A GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- LINK CSS PROPIO -->
+    <link rel="stylesheet" href="css/styles.css">
     <title>Good Coffee</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo proyecto nc.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
 
-                <li>
-                    <a href="pages/tienda.html">Mini Tienda</a>
-                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/galeria.html">Galeria</a>
+                        </li>
 
-                <li>
-                    <a href="pages/capacitaciones.html">Capacitaciones</a>
-                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/capacitaciones.html">Capacitaciones</a>
+                        </li>
 
-                <li>
-                    <a href="pages/sobre-mi.html">Sobre mi</a>
-                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/sobre-mi.html">Sobre mi</a>
+                        </li>
 
-                <li>
-                    <a href="pages/contacto.html">Contacto</a>
-                </li>
-            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
+    <div class="banner">
+        <h1 class="titulo1">Nahuel Coffee Maker.</h1>
+        <h2 class="titulo2">CAFETERIA DE ESPECIALIDAD - CURSOS Y CAPACITACIONES</h2>
+        <h3 class="titulo3">I orchestrate my mornings to the sound of coffee.</h2>
+    </div>
+
+    <div class="banner2">
+        <h1 class="titulo1">Sobre este sitio</h1>
+        <h4 class="titulo4">Este sitio está hecho para aquellas personas amantes del café, sus preparaciones y derivados</h4>
+        <h4 class="titulo4">¡Te invitamos a ser parte de esta maravillosa experiencia!</h4>
+    </div>
+
+
+
+
+
+
+
+
+
+</footer>
+
+<div class="redes-sociales">
+    <a href="https://www.tiktok.com" target="_blank">
+        <img src="img/iconos/tiktok-icon.svg" alt="Icono tiktok" class="icono-redes">
+    </a>
+    <a href="https://www.facebook.com" target="_blank">
+        <img src="img/iconos/facebook.svg" alt="Icono facebook" class="icono-redes">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <img src="img/iconos/instagram.svg" alt="Icono instagram" class="icono-redes">
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=542616632629" target="_blank">
+        <img src="img/iconos/whatsapp-icon.svg" alt="Icono whatsapp" class="icono-redes">
+    </a>
+</div>
+
+<footer>
+    <p>Copyright ©2023 All rights reserved</p>
+</footer>
+
+
+    <!-- SCRIPT DE BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
